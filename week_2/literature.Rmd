@@ -1,0 +1,220 @@
+---
+title: "On Literature Reviews: Databases/Tools/Templates"
+subtitle: "INT 93"
+author: "Michael Topper"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 22px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+
+# How to Search Articles
+
+.pull-left[
+## Google Scholar
+
+* Pros:
+  - Links to other sources
+  - Can select date range
+  - Quickly see if your question has been answered
+* Cons:
+  - Not always up-to-date
+  - Working papers scarce (cutting edge)
+  - Not always in your field
+]
+
+--
+
+.pull-right[
+## Working Papers
+
+* Pros: 
+  - Most cutting edge research
+  - Will likely cite all articles prior
+* Cons:
+  - Difficult to find (rely on experts/NBERS)
+  - Not peer reviewed (may have mistakes)
+  ]
+  
+---
+# Library Databases
+
+## Benefits
+.pull-left[
+* Pros: 
+  - Only economics articles
+  - All peer-reviewed
+]
+.pull-right[
+* Cons:
+  - Only economics articles
+  - Need VPN or UCSB internet connection
+  - Interface not as nice as Google Scholar
+]
+
+## Steps:
+
+* Go to [UCSB library website](https://www.library.ucsb.edu/)
+* Click on [Articles and Databases]()
+* Search Engine will provide you with the following databases:
+  - EconLit
+  - RePEc (Research Papers in Economics)
+  - National Bureau of Economic Research (NBER) Working Papers
+  
+---
+# Which Method is Best?
+
+
+### My Suggestion:
+* Use a combination of each of these
+  - Start with working papers (use NBERS)
+      - These will lead you to prior works in their literature reviews
+* You will find which ones work best for you
+* No method will get every paper:
+  - Likely, someone will suggest a paper to you
+
+---
+class: inverse, mline, center, middle
+
+# Keeping Track of Literature
+
+---
+# Zotero
+
+## Big No-Nos
+
+* Using a file folder with downloaded papers
+* Using a Microsoft Word Document with copied links
+* Keeping a Google bookmark folder
+* I have done all of these...this is inefficient, and frankly, a waste of time!
+
+## Solution: Zotero
+
+* Free software dedicated to this problem
+  - Free
+  - Integrated with Microsoft Word/Google Docs
+  - Integrated with Google Chrome
+  - Can create citations for you
+
+---
+# Downloading Zotero
+
+## Steps:
+1. Go to the [Zotero download page](https://www.zotero.org/download/)
+2. Click on your type of operating system (Mac/Windows)
+3. Install
+4. In addition, install the Zotero Connector (Chrome App) and Google Chrome
+
+---
+class: inverse, mline, center, middle
+
+# Zotero Demonstration
+
+---
+# How should I take notes?
+
+## Reading Research:
+* Many strategies, but generally:
+  - Think about the problems/areas your research relates to
+  - Group articles under each of these areas
+  - Take notes
+
+## Example:
+
+* ShotSpotter Technology on Response Times
+  - General groups:
+    - Police technology (body worn cameras, tacticle equiptment)
+    - Rapid response
+    - Gun Control
+    
+---
+# Template for taking notes:
+
+You can use either Microsoft Word or Google Doc here!
+
+## Grouping
+### Paper Name
+* Main idea of the paper:
+* Main results:
+* How your paper is different:
+* How your paper relates:
+
+---
+class: inverse, mline, center, middle
+
+# Literature Document Demonstration
+
+---
+class: inverse, mline, center, middle
+
+# What makes a good research question?
+
+---
+# Good Research Questions
+
+.font200[Big] implications (inform policy, a missing measure etc.), but
+.font70[Small] Scope (focused)
+
+.pull-left[
+## Bad Example:
+
+* What factors contribute to poor health?
+  - Overly broad: pick a factor!
+  - Poor health is loosely defined
+      - Obesity?
+      - Depression?
+]
+.pull-right[
+## Good Example:
+* [How do physicians practice environments affect patient outcomes?](https://www.sciencedirect.com/science/article/abs/pii/S0167629623000188)
+  - One factor:
+  - Policy implications
+  - Outcomes discussed further reading
+]
+---
+# Finding Good Research Questions
+
+## Methods
+
+* Read news articles
+  - Non-researched claims are made all the time
+* Talk to people
+  - Non-researched claims are made all the time
+* Read opinion pieces
+* Read non-fiction economics books
+  - Non-researched claims are made all the time
+* Read academic papers
+  - You can often think of extending another's work
+* Question everything!
+* [How to get started on research in economics? ](https://econ.lse.ac.uk/staff/spischke/phds/How%20to%20start.pdf)
+
+---
+# Integrating Research
+
+## Keep in mind..
+
+* Your research is about what YOU do!
+* Do not emphasize others research in your work, but kindly refer to them when describing what you do.
+* Some tips:
+  - Each paragraph dealing with literature, highlight portions where your work is talked about.
+  - There should be highlight in each sentence.
+  
+
+  
+
+
+
+
+
+
+  

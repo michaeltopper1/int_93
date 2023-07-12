@@ -1,0 +1,278 @@
+---
+title: "Academic Writing, Abstracts, and Introductions"
+subtitle: "INT 93"
+author: "Michael Topper"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 22px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+
+# Academic vs. Creative Writing:
+
+.pull-left[
+## Creative Writing
+* Paints a picture in your head
+* Descriptive, many adjectives/adverbs
+  - Adjectives/adverbs/verbs are exciting: lucusious, shatter, bombastic
+* Opinionated/Biased
+* Non-concrete
+  - Example: Tons of police departments use body-worn cameras
+  
+]
+.pull-right[
+
+## Academic Writing
+* Tells one concrete story of a focused idea
+* Few adjectives—less is more.
+  - Adjectives are restrained
+* Unbiased (at least good research)
+* Concrete
+  - Example: Body-worn cameras have been implemented in 5 cities across the US including...(cite)
+]
+
+---
+# General Writing Tips:
+
+* Do not write an opinion piece
+* Grammar/spelling/sentence structure conveys a signal
+* Copy the style of your field
+* Favor the active voice:
+  - Bad: "Data was collected from Chicago from 2016-2020"
+  - Good:"I use data from Chicago from 2016-2020"
+* Avoid overly dramatic adjectives or verbs:
+  -  “these results completely shatter our expectations.”
+* Sign-post
+  - We estimate three models. First,... Second,..., Finally,
+* Avoid jargon - it does not make you sound smart!
+* Everything is self-contained.
+  - Tables/Figures vs. Paper
+* Make sure to talk about your paper all the time
+* Stick with the template of a research paper
+
+---
+# Research Paper Template:
+
+1. Abstract
+2. Introduction
+3. Background Information
+4. Data
+5. Empirical Strategy (Methods)
+6. Results
+7. Results on Interesting Sub-Samples (Heterogeniety Analysis)
+8. Disccusion/Conclusion
+
+Stick to this. No one likes reading papers. We want to find the information we want quickly.
+
+---
+# Focus: Abstract/Introduction
+
+**Everyone should understand 80% of these!!**
+
+## Abstract:
+
+* The only part of the paper most people read.
+* Think of it as your pitch:
+  - Very few words to keep your readers engaged
+  - If readers like what they see, they read on
+* Your entire paper in approximately 100 words.
+
+## Introduction:
+
+* Interested readers will read this...
+  - Or at least give it a chance
+* Your entire paper in approximately 3-4 pages.
+* Offers more details than the abstract, but no rigor.
+  - Stay away from technical details
+
+---
+# Abstract:
+
+Should cover the following:
+
+- Data
+- Empirical Strategy
+- Main Result(s)
+- A final sentence on something interesting (probably a result)
+
+However, there shouldn't be more an a sentence or two on each of these main points. Think of this as your one-liner for when your parents ask you what you're studying. 
+---
+# Abstract Example 1:
+
+This paper examines race and police use of force using data on 1.6 million 911 calls in two cities, neither of which allows for discretion in officer dispatch. Results indicate white officers increase force much more than minority officers when
+dispatched to more minority neighborhoods. Estimates indicate black (Hispanic) civilians are 55 (75) percent more likely to experience any force, and five times as likely to experience a police shooting, compared to if white officers scaled up force similarly to minority officers. Additionally, 14 percent of white officers use excess
+force in black neighborhoods relative to our statistical benchmark.
+
+> (Sloan & Hoekstra 2020)
+
+---
+# Abstract Example 1:
+
+<mark> This paper examines race and police use of force using data on 1.6 million 911 calls in two cities </mark>, neither of which allows for discretion in officer dispatch. Results indicate white officers increase force much more than minority officers when
+dispatched to more minority neighborhoods. Estimates indicate black (Hispanic) civilians are 55 (75) percent more likely to experience any force, and five times as likely to experience a police shooting, compared to if white officers scaled up force similarly to minority officers. Additionally, 14 percent of white officers use excess
+force in black neighborhoods relative to our statistical benchmark.
+
+> (Sloan & Hoekstra 2020)
+---
+# Abstract Example 1:
+
+This paper examines race and police use of force using data on 1.6 million 911 calls in two cities,<mark> neither of which allows for discretion in officer dispatch.</mark> Results indicate white officers increase force much more than minority officers when
+dispatched to more minority neighborhoods. Estimates indicate black (Hispanic) civilians are 55 (75) percent more likely to experience any force, and five times as likely to experience a police shooting, compared to if white officers scaled up force similarly to minority officers. Additionally, 14 percent of white officers use excess
+force in black neighborhoods relative to our statistical benchmark.
+
+> (Sloan & Hoekstra 2020)
+---
+# Abstract Example 1:
+
+This paper examines race and police use of force using data on 1.6 million 911 calls in two cities, neither of which allows for discretion in officer dispatch. <mark>Results indicate white officers increase force much more than minority officers when
+dispatched to more minority neighborhoods. Estimates indicate black (Hispanic) civilians are 55 (75) percent more likely to experience any force, and five times as likely to experience a police shooting, compared to if white officers scaled up force similarly to minority officers. </mark> Additionally, 14 percent of white officers use excess force in black neighborhoods relative to our statistical benchmark.
+
+> (Sloan & Hoekstra 2020)
+---
+# Abstract Example 1:
+
+This paper examines race and police use of force using data on 1.6 million 911 calls in two cities, neither of which allows for discretion in officer dispatch. Results indicate white officers increase force much more than minority officers when
+dispatched to more minority neighborhoods. Estimates indicate black (Hispanic) civilians are 55 (75) percent more likely to experience any force, and five times as likely to experience a police shooting, compared to if white officers scaled up force similarly to minority officers. <mark> Additionally, 14 percent of white officers use excess force in black neighborhoods relative to our statistical benchmark.</mark>
+
+> (Sloan & Hoekstra 2020)
+
+---
+# Abstract Example 2:
+
+I estimate the impact of employment opportunities on recidivism among 1.7 million offenders released from a California prison between 1993 and 2008. The institutional structure of the California criminal justice system as well as location, skill, and industry‐specific job accession data provide a unique framework for identifying a causal effect of job availability on criminal behaviour. I find that increases in construction and manufacturing opportunities at the time of release are associated with significant reductions in recidivism. Other types of opportunities, including those characterised by lower wages that are typically accessible to individuals with criminal records, do not influence recidivism.
+
+> (Schnepel 2018)
+ 
+---
+# Abstract Example 2:
+
+<mark>I estimate the impact of employment opportunities on recidivism among 1.7 million offenders released from a California prison between 1993 and 2008.</mark> The institutional structure of the California criminal justice system as well as location, skill, and industry‐specific job accession data provide a unique framework for identifying a causal effect of job availability on criminal behaviour. I find that increases in construction and manufacturing opportunities at the time of release are associated with significant reductions in recidivism. Other types of opportunities, including those characterised by lower wages that are typically accessible to individuals with criminal records, do not influence recidivism.
+ 
+ > (Schnepel 2018)
+ 
+---
+# Abstract Example 2:
+ 
+I estimate the impact of employment opportunities on recidivism among 1.7 million offenders released from a California prison between 1993 and 2008. <mark> The institutional structure of the California criminal justice system as well as location, skill, and industry‐specific job accession data provide a unique framework for identifying a causal effect of job availability on criminal behaviour. </mark> I find that increases in construction and manufacturing opportunities at the time of release are associated with significant reductions in recidivism. Other types of opportunities, including those characterised by lower wages that are typically accessible to individuals with criminal records, do not influence recidivism.
+ 
+ > (Schnepel 2018)
+ 
+---
+# Abstract Example 2:
+
+I estimate the impact of employment opportunities on recidivism among 1.7 million offenders released from a California prison between 1993 and 2008. The institutional structure of the California criminal justice system as well as location, skill, and industry‐specific job accession data provide a unique framework for identifying a causal effect of job availability on criminal behaviour.<mark> I find that increases in construction and manufacturing opportunities at the time of release are associated with significant reductions in recidivism. </mark> Other types of opportunities, including those characterised by lower wages that are typically accessible to individuals with criminal records, do not influence recidivism.
+
+> (Schnepel 2018)
+
+---
+# Abstract Example 2:
+
+I estimate the impact of employment opportunities on recidivism among 1.7 million offenders released from a California prison between 1993 and 2008. The institutional structure of the California criminal justice system as well as location, skill, and industry‐specific job accession data provide a unique framework for identifying a causal effect of job availability on criminal behaviour. I find that increases in construction and manufacturing opportunities at the time of release are associated with significant reductions in recidivism. <mark>Other types of opportunities, including those characterised by lower wages that are typically accessible to individuals with criminal records, do not influence recidivism.</mark>
+
+> (Schnepel 2018)
+
+---
+# Abstract Example 3:
+
+This paper provides the first causal estimates on the popular, cost-saving practice of diversion in the criminal justice system, an intervention that provides offenders with a second chance to avoid a criminal record. We exploit two natural experiments in Harris County, Texas where first-time felony defendants faced abrupt changes in the probability of diversion. Using administrative data and regression discontinuity methods, we find robust evidence across both experiments that diversion cuts reoffending rates in half (-32 p.p.) and grows quarterly employment rates by 53 percent (+18 p.p.) over 10 years. The change in trajectory persists even 20 years out and is concentrated among young black men. An investigation of mechanisms indicates that stigma associated with a felony conviction plays a key role in generating these results. Other possible mechanisms including changes in incarceration, universal adjustments in policy or practice, and differences in criminal processing are ruled out empirically.
+
+> (Mueller-Smith and Schnepel 2020)
+
+---
+# Abstract Example 3:
+
+This paper provides the first causal estimates on the popular, cost-saving practice of diversion in the criminal justice system, an intervention that provides offenders with a second chance to avoid a criminal record.<mark> We exploit two natural experiments in Harris County, Texas where first-time felony defendants faced abrupt changes in the probability of diversion.</mark> Using administrative data and regression discontinuity methods, we find robust evidence across both experiments that diversion cuts reoffending rates in half (-32 p.p.) and grows quarterly employment rates by 53 percent (+18 p.p.) over 10 years. The change in trajectory persists even 20 years out and is concentrated among young black men. An investigation of mechanisms indicates that stigma associated with a felony conviction plays a key role in generating these results. Other possible mechanisms including changes in incarceration, universal adjustments in policy or practice, and differences in criminal processing are ruled out empirically.
+
+> (Mueller-Smith and Schnepel 2020)
+
+---
+# Abstract Example 3:
+
+This paper provides the first causal estimates on the popular, cost-saving practice of diversion in the criminal justice system, an intervention that provides offenders with a second chance to avoid a criminal record. We exploit two natural experiments in Harris County, Texas where first-time felony defendants faced abrupt changes in the probability of diversion.<mark> Using administrative data and regression discontinuity methods,</mark> we find robust evidence across both experiments that diversion cuts reoffending rates in half (-32 p.p.) and grows quarterly employment rates by 53 percent (+18 p.p.) over 10 years.The change in trajectory persists even 20 years out and is concentrated among young black men. An investigation of mechanisms indicates that stigma associated with a felony conviction plays a key role in generating these results. Other possible mechanisms including changes in incarceration, universal adjustments in policy or practice, and differences in criminal processing are ruled out empirically.
+
+> (Mueller-Smith and Schnepel 2020)
+
+---
+# Abstract Example 3:
+
+This paper provides the first causal estimates on the popular, cost-saving practice of diversion in the criminal justice system, an intervention that provides offenders with a second chance to avoid a criminal record. We exploit two natural experiments in Harris County, Texas where first-time felony defendants faced abrupt changes in the probability of diversion. Using administrative data and regression discontinuity methods, <mark>we find robust evidence across both experiments that diversion cuts reoffending rates in half (-32 p.p.) and grows quarterly employment rates by 53 percent (+18 p.p.) over 10 years.</mark> The change in trajectory persists even 20 years out and is concentrated among young black men. An investigation of mechanisms indicates that stigma associated with a felony conviction plays a key role in generating these results. Other possible mechanisms including changes in incarceration, universal adjustments in policy or practice, and differences in criminal processing are ruled out empirically. >
+
+> (Mueller-Smith and Schnepel 2020)
+
+---
+# Abstract Example 3:
+
+This paper provides the first causal estimates on the popular, cost-saving practice of diversion in the criminal justice system, an intervention that provides offenders with a second chance to avoid a criminal record. We exploit two natural experiments in Harris County, Texas where first-time felony defendants faced abrupt changes in the probability of diversion. Using administrative data and regression discontinuity methods, we find robust evidence across both experiments that diversion cuts reoffending rates in half (-32 p.p.) and grows quarterly employment rates by 53 percent (+18 p.p.) over 10 years. <mark>The change in trajectory persists even 20 years out and is concentrated among young black men. An investigation of mechanisms indicates that stigma associated with a felony conviction plays a key role in generating these results. Other possible mechanisms including changes in incarceration, universal adjustments in policy or practice, and differences in criminal processing are ruled out empirically.</mark>
+
+> (Mueller-Smith and Schnepel 2020)
+
+---
+# Introduction Writing:
+
+### Contents
+
+* The "hook"
+  - A paragraph that describes the importance
+  - Why should we care?
+* The specific question you are trying to address
+* A brief summary of what the paper does
+  - Usually a reworked paragraph of the abstract
+* Challenge intuition by framing ambigious expectations
+* State your contributions
+  - How are you answering the question?
+  - Compare to others, but **do not** highlight their work
+* Preview the main results
+  - Stick to the highlights 
+* Optional: provide a roadmap
+
+---
+# Dissecting an Intro
+
+Case Study: Does Race Matter for Police Use of Force? Evidence from 911 Calls
+
+> Mark Hoekstra and CarlyWill Sloan 2021
+
+---
+# Editing an Intro
+
+### Class Activity
+
+* Read the "before" introduction which is a student's first pass at an introduction 
+* Give recommendations for based on what we learned
+  - Did they follow academic style?
+  - Did they follow the introduciton guidelines?
+
+--
+
+### Class Activity
+
+* Read the "after" introduction and see if they introduced all components and followed the academic styling guides.
+
+---
+# Editing an Intro 2
+
+### Class Activity
+
+* Read Michael's first draft of his intro 
+* Give recommendations
+
+--
+
+### Class Activity
+
+* Read Michael's final draft of his intro
+
+---
+# References
+
+* [Writing Tipes for Economics Researchers](https://docs.iza.org/dp15057.pdf)
