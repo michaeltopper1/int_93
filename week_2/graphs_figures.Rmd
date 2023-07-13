@@ -54,6 +54,9 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F,
     - Can you include interesting subsets in the figure with a slight modification?
 * Use your group members!
     - Come up with a sketch of a graph and show to group members
+---
+class: inverse, mline, center, middle
+# Exercise: Planning Figures Together
     
 ---
 # Example: Bar Graph (Bad)
@@ -200,6 +203,45 @@ knitr::include_graphics("graphs/marketshare-side-by-side-1.png")
 ```
 
 ---
+# In Your Paper:
+
+## Main Figures of the Paper
+
+* Your paper should essentially be a few results summarized in a figure or two
+* Most people will only look at this one figure
+* Be sure this figure is clear to everyone—ask others!
+* Make this figure *pop*
+* Your parents should be able to understand your research question/paper/result in this one figure
+
+---
+# Examples: 
+
+## Police Mistrust Paper (Ang et al. 2022)
+
+* Page 16 shows a graph that is the entire paper
+
+## Fraternity Paper (Topper 2023)
+
+* Main figure shows significant decline only in moratorium picture
+
+
+---
+# Further Readings:
+
+## Great Books on Visualization Practice:
+
+* [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+* [Data Visualization](https://socviz.co/index.html#preface)
+
+## Great Sources of Visualization
+
+* [New York Times](https://www.nytimes.com/)
+* [FiveThirtyEight](https://fivethirtyeight.com/)
+
+---
+class: inverse, mline, center, middle
+# Tables
+---
 # Summary Statistics Tables
 
 ## Good Summary Statistics:
@@ -209,21 +251,28 @@ knitr::include_graphics("graphs/marketshare-side-by-side-1.png")
     - Can possibly show Min/Max/Median if wanted
 * Breaks down by interesting sub-groups (if there are any)
 
----
-# Example: Good Summary Stats Table
+<p style="color:blue"> A stranger should be able to read the summary statistics table and know the people being studied, outcome being studied, and controls used! </p>
 
-## Sloan & Hoekstra 2020
+---
+# Example: Summary Stats
+
+**This is an example of a good summary statistics table**
+
+### Sloan & Hoekstra 2020
 
 * Does Race Matter for Police Use-of-Force?
     - Page 45
 
-## Things this does right:
+### Things this does right:
 
-* Self contained notes
+* Self-contained notes
 * Interesting sub-samples
 * Means/SDs
   - Outcomes
   - Controls
+---
+class: inverse, mline, center, middle
+# Results Tables
 
 ---
 # Results Tables
@@ -236,7 +285,44 @@ knitr::include_graphics("graphs/marketshare-side-by-side-1.png")
     - Note these in the table note
 * Contains notes
   - Notes should have all the necessary information to make the table self-contained
+* Should include point estimates/standard errors
+  - Generally helpful to include the mean of the dependent variable
+---
+class: inverse, mline, center, middle
+# Paper Template
 
+---
+# Template
+
+## Template for Paper
+
+* Shared on Canvas: Week 2 Thursday
+* DO NOT EDIT THE ORIGINAL
+    - Make a copy
+    - Edit the copy
+* Follow style outlined
+
+## Small Differences for Econ:
+* Tables/Figures should be in their own sections/pages, after all text/references
+* You may need to change the names of headings (abstract/intro/background/empirical strategy etc.)
+
+---
+# Progress Reports:
+
+## At this point in time
+
+* Your research question should be solidified
+* You should know what your data is
+* You should have opened your data
+
+## Next steps for today
+
+* Meet with me group-by-group
+* Get some ideas of main figures/graphs
+* Work on Progress Report 2
+    - 1 Graph/Figure
+    - 1 Regression Table
+* Refine any broad ideas in your research
 
 
 
