@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>On Literature Reviews: Databases/Tools/Templates</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Michael Topper" />
+    <script src="libs/header-attrs-2.22/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# On Literature Reviews: Databases/Tools/Templates
+]
+.subtitle[
+## INT 93
+]
+.author[
+### Michael Topper
+]
+
+---
+
+&lt;style type="text/css"&gt;
+.remark-slide-content {
+    font-size: 22px;
+    padding: 1em 4em 1em 4em;
+}
+&lt;/style&gt;
+
+
+
+# Good Visualizations:
+
+## Instant Gratification
+
+* Interpretable with little effort from reader
+* Self contained - nothing open to interpretation
+* Interesting 
+* Simple
+  - You will likely be trying to convey 1 idea
+  - Complexity comes when showing same figure for multiple subgroups
+  - Careful with complexity...could leave to misinterpretation from reader
+* It will take many drafts to get the right figure!
+
+
+---
+
+# Planning a Figure:
+
+## Start with the result
+
+* What result do you want to convey?
+    - Think about what kind of figures best convey such result (histogram/barplot/time trend etc)
+        - Would this figure be better as a table?
+    - Draft out multiple ideas for the figure
+    - Can you include interesting subsets in the figure with a slight modification?
+* Use your group members!
+    - Come up with a sketch of a graph and show to group members
+    
+---
+# Example: Bar Graph (Bad)
+
+&lt;img src="graphs/boxoffice-horizontal-bad-order-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# Example: Bar Graph (Bad)
+
+## Problems:
+
+* Poor choice of ordering
+* Hard to compare groups
+
+## Fix:
+
+* Reorder from highest to lowest
+* Easier comparison
+
+
+---
+# Example: Bar Graph (Fixed)
+
+&lt;img src="graphs/boxoffice-horizontal-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+# Example: Bar Graph with Groups
+
+&lt;img src="graphs/income-by-age-race-dodged-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+# Example: Bar Graph with Groups
+
+## Problems:
+
+* Difficult to compare across races
+* Wants to convey comparisons, but hard on the eye
+* Inconsistent capitalization
+
+## Fix:
+
+* "Facet" by race
+  - A facet is an individual graph by a subset
+  - 4 small figures by race
+* This will help convey the message to the reader quicker
+
+---
+# Example: Bar Graph with Groups
+
+&lt;img src="graphs/income-by-age-race-faceted-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+# Example: Histogram (Bad)
+
+&lt;img src="graphs/titanic-age-stacked-hist-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+# Example: Histogram (Bad)
+
+## Problems:
+
+* Stacked histograms are easily confused with overlapping histograms!
+* Is this a stacked histogram or overlapping
+    - Can reach very different conclusions!
+
+## Fix:
+
+* Multiple solutions to fix here, but usually subgroups are best displayed with a facet.
+
+---
+# Example: Histogram (Fixed)
+
+&lt;img src="graphs/titanic-age-fractional-dens-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+# Example: Time Trend (Bad)
+
+&lt;img src="graphs/bio-preprints-dots-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# Example: Time Trend (Bad)
+
+## Problems:
+
+* Difficult for reader to see the trend
+* Three different colors overlap with each other
+* Reader needs to jump back and forth with the legend
+
+## Fix:
+
+* Connect the dots
+* Alternatively, you could facet by group...although this might be a little overkill
+* Put the legend on the map
+---
+# Example: Time Trend (Fixed)
+
+&lt;img src="graphs/bio-preprints-direct-label-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+# Example: Proportions (Bad)
+
+&lt;img src="graphs/marketshare-pies-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+# Example: Proportions (Bad)
+
+## Problems:
+* Most people say pie charts are the worst form of visualization
+    - In my opinion only good when looking at one group
+* Poor method when comparing across groups
+
+# Fix:
+* Faceting will not work here - the pie chart is bad at these types of comparisons
+* Try making a different figure: 
+  - Barplot side-by-side faceted by years
+  
+---
+# Example: Proportions (Fixed)
+
+&lt;img src="graphs/marketshare-side-by-side-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+# Summary Statistics Tables
+
+## Good Summary Statistics:
+* Self-contained
+* For each outcome variable/control variable:
+    - Shows the Mean/SD
+    - Can possibly show Min/Max/Median if wanted
+* Breaks down by interesting sub-groups (if there are any)
+
+---
+# Example: Good Summary Stats Table
+
+## Sloan &amp; Hoekstra 2020
+
+* Does Race Matter for Police Use-of-Force?
+    - Page 45
+
+## Things this does right:
+
+* Self contained notes
+* Interesting sub-samples
+* Means/SDs
+  - Outcomes
+  - Controls
+
+---
+# Results Tables
+
+## Good Results Tables:
+* Self-contained
+* Shows a main result, and possibly interesting sub-group result
+* Not overcrowded with unnecessary information
+    - You do not need to show all control variables if they are not important
+    - Note these in the table note
+* Contains notes
+  - Notes should have all the necessary information to make the table self-contained
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
