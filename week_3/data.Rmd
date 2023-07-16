@@ -1,5 +1,5 @@
 ---
-title: "On Data: Writing/Summary Tables"
+title: "Data and Empirical Strategy Section"
 subtitle: "INT 93"
 author: "Michael Topper"
 output:
@@ -17,13 +17,32 @@ output:
     padding: 1em 4em 1em 4em;
 }
 </style>
+---
+# Progress Reports
 
+## Main Comments:
+
+* Discretizing Variables
+  - Many variables with Sex = 1 or Sex = 2. These need to be put into 2 categories: Male and Female.
+* Inconsistent number of observations
+  - The observations in the results tables should match the summary statistics
+  - Read the codebooks—lots of missing codes that differ
+  - Get one, consistent sample to speak about
+* Names
+  - Give informative names in your table. DO NOT use STATA names.
+* Decimal Places
+  - We do not need to know eight decimal places—keep to 3 max.
+* Table formatting
+  - Use the papers we've talked about in class as a template.
+---
 # Data Section
 
 ## Overview
 
 * Sample sample sample
-  - 1st and most important
+  - 1st and most important sentence
+  - Remember, the main sample should generally not change
+  - Should be a consistent set of individuals
 * Do not get creative here
   - This section SHOULD be boring
   - Only for those most interested
@@ -47,6 +66,20 @@ output:
   - Table with means/standard deviations of important variables
     - "Descriptive" statistics
   - Important subgroups
+
+---
+# Your Sample:
+
+## How your sample should "look"
+
+* Consistent number of observations.
+  - We want to know who the sample is, and we do not want this changing table-to-table
+  - Describe who these are, and why you had to use these
+  - Missing data problems?
+* Do not switch between samples, unless you have a very clear reason to do so.
+  - Switching samples confuses readers
+* Look at your data and read your code books for missing codes!
+  - Sometimes missings are coded differently (ie 999999, ., NA)
   
 ---
 # First Sentence:
@@ -86,7 +119,7 @@ While limitations are important to convey, do not undersell yourself!
 * Every study has limitations
   - Does later analysis address this limitation?
   - Is the limitation critical to your analysis?
-* For certain data sets with limitations everyone knwos of:
+* For certain data sets with limitations everyone knows of:
   - Use other literature as your guide. They had to deal with these problems first! 
       - Remember to cite!
 
@@ -124,28 +157,6 @@ class: inverse, mline, center, middle
 ---
 class: inverse, mline, center, middle
 
-# Activity: Reading a Bad Data Section
-
----
-class: inverse, mline, center, middle
-
 # Exercise: Write Summary Statistics
 
----
-# Summary Statistics Example:
-
-```{r, echo = F, message = F, warning = F}
-library(tidyverse)
-library(modelsummary)
-```
-
-```{r, echo = F}
-table <- mtcars %>% 
-  select(1:5) %>% 
-  datasummary_skim()
-```
-
-```{r, echo = F}
-table
-```
 

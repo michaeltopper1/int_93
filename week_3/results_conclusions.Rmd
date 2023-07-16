@@ -1,0 +1,90 @@
+---
+title: "Results/Conclusion Section"
+subtitle: "INT 93"
+author: "Michael Topper"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+<style type="text/css">
+.remark-slide-content {
+    font-size: 22px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+
+# Results 
+
+## Decisions to make:
+
+* What empirical results to report
+* How many empirical results to report
+* Which results go in the main body of the paper
+* How to describe the results
+
+**Best to present only results that directly bolster your main takeaway**
+
+---
+# Results Writing:
+
+## Methods of writing:
+
+* Plan out your attack
+  - Remember: think about the story you want to tell
+  - Results should flow logically
+  - Think about what the next question a reader would ask, and then continue to that result next
+* OUTLINE
+  - Do this again and again and again
+  - Your first outline will likely need it's logic reordered
+* Please, do not write without an outline
+    - Your paper will be BAD
+
+---
+# Example of Writing:
+
+ > Table 1 shows that including a measure of ability in the wage equation lowers the
+predicted effect of education on earnings. In Column (1), we do not include the
+proxy measures of ability; the results reported in the Column indicate that a year
+of education raises wages by 9.1 percent. In Column (2), we add the proxy
+measures of ability, and the education effect drops to 3.1 percent. Columns (3) and
+(4) report the results from the same specifications with the inclusion of state fixed
+effects; the pattern of the results reported in these columns was that this general
+pattern is consistent with the results from Columns (1) and (2). The estimates in
+Table 1 are consistent with the hypothesis that an upward ability bias plagues the
+naïve OLS estimates.
+
+---
+# Style:
+
+## Results writing:
+
+* Establish the main point in the topic sentence
+* The first and last sentences should be "big picture"
+    - They help tell the story
+* Pay close attention to the story you are telling
+  - Grind the story into the reader
+* Remember to refer to columns as Column (1), Column (2) etc. 
+  - Writing will help guide tables
+* Good Example:
+  - [Hanging out with the Usual Suspects](https://kschnepel.github.io/files/UsualSuspects.pdf) (Billings and Schnepel)
+
+---
+# Conclusion
+
+## Contents:
+
+* Short (1 page max)
+* Restate the main results from the Results section
+  - Only focus on the central results and takeaways
+* Discuss potential mechanisms driving the results
+* Potential policy implications
+  - What did you learn about human behavior more generally?
+  - What did you learn that we did not know before?
+* Promising directions for future research
+* Important limitations in your work
+
